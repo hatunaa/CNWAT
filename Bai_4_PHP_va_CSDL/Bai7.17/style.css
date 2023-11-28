@@ -1,0 +1,178 @@
+body{
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 16;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+.btn-black{
+	padding: 4px 16px;
+	color: white;
+	background-color: black;
+}
+
+.btn-white{
+	color: gray;
+	background-color: #eee;
+}
+
+.search-section{
+	background-color: gray;
+	color: white;
+	border-radius: 4px;
+	padding: 8px;
+}
+
+.search-title{
+	font-size: larger;
+	margin-bottom: 16px;
+}
+
+.search-box{
+	padding: 0 8px;
+}
+
+.search-input{
+	width: 100%;
+	color: black;
+	margin-bottom: 8px;
+}
+
+.search-btn{
+	padding: 4px 16px;
+	background-color: black;
+	float: right;
+}
+
+
+.filter-section{
+}
+.filter-section-title{
+	text-align: left;
+	font-size: larger;
+	font-weight: 600;
+	color: cornflowerblue;
+	background-color: lightgray;
+	padding: 8px 12px;
+
+}
+.filter-options{
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 8px;
+}
+
+.filter-options-name{
+	font-weight: 600;
+	text-transform: uppercase;
+
+}
+
+.filter-option{
+
+}
+
+.product-header{
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 8px;
+}
+
+.product-order{
+	display: flex;
+	gap: 8px;
+}
+
+.product-order-label{
+	font-size: larger;
+}
+
+.product-list{
+	margin: 16px;
+}
+
+.product-item{
+	padding: 8px 0;
+	border-top: 1px gray solid;
+}
+
+.product-img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 992px	) {
+	.search-title{
+		text-align: center;
+	}
+	.filter-section-title{
+		text-align: center;
+	}
+	.filter-options{
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+.product-item-detail{
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.product-name{
+	font-size: larger;
+	font-weight: 600;
+}
+.product-views{
+
+}
+.product-description{
+
+}
+
+.product-price-title{
+	font-weight: 600;
+}
+.product-price-value{
+}
+
+.product-store-title{
+	font-weight: 600;
+}
+.product-store-value{
+}
+
+.right-bar{
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.login-partner-title{
+	font-size: larger;
+	font-weight: 600;
+}
+
+.parner-login-lable{
+	color: blue;
+}
+
+#parner-login-send-btn{
+	margin: auto;
+	display: block;
+}
+
+.parner-login-link{
+	display: block;
+	color: gray;
+}

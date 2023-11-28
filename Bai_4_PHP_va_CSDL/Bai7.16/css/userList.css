@@ -1,0 +1,61 @@
+.add-user {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  border: 2px solid #000;
+}
+
+th,
+td {
+  /* border: 1px solid black; */
+  padding: 8px;
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.action-container {
+  display: flex;
+  justify-content: center;
+}
+
+.action-container a {
+  margin-right: 5px;
+}
+
+.button-like-a {
+  display: inline-block;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0;
+}
+
+.button-like-a:hover {
+  color: #0056b3;
+}

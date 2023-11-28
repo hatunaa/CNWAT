@@ -1,0 +1,48 @@
+.content {
+  display: flex;
+  font-size: 20px;
+}
+.content-right {
+  width: 50%;
+  margin: 0 auto;
+}
+.content-right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.value_arr {
+  margin-top: 10px;
+  max-width: 50px;
+  margin-right: 5px;
+}
+
+.result-oda {
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.matrix-arr {
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.value_arr {
+  max-width: 50px;
+  margin-right: 5px;
+}
+
+.result-oda {
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.result-matrix-container-child {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}

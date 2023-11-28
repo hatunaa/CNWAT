@@ -1,0 +1,32 @@
+.content {
+  display: flex;
+  font-size: 20px;
+}
+.content-right {
+  width: 50%;
+  margin: 0 auto;
+}
+.content-right {
+  width: 100%;
+  display: flex;
+  /* align-items: flex-end; */
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.loop-container-child {
+  display: flex;
+  gap: 20px;
+}
+
+.table-center {
+  width: 100%;
+}
+
+.table-center tr {
+  background: none !important;
+}
+
+.table-center tr td {
+  text-align: center;
+}

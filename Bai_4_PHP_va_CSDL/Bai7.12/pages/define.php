@@ -1,0 +1,25 @@
+<?php
+define("contactFormEn", "Contact");
+define("contactFormVn", "Liên hệ");
+define("genderEn", "Sex");
+define("maleEn", "Male");
+define("femaleEn", "Female");
+define("addressEn", "Address");
+define("noteEn", "Note");
+define("genderVn", "Giới tính");
+define("addressVn", "Địa chỉ");
+define("noteVn", "Ghi chú");
+define("maleVn", "Nữ");
+define("femaleVn", "Name");
+define("infoContactEn", "Contact information");
+define("infoContactVn", "Thông tin liên hệ");
+define("submitEn", "Submit");
+define("submitVn", "Nộp");
+define("resetEn", "Reset");
+define("resetVn", "Điền lại");
+define("introductionEn", "Welcome to our website");
+define("introductionVn", "Chào mừng bạn đến với website của chúng tôi");
+define("homeEn", "Home");
+define("homeVn", "Trang chủ");
+define("en", "English");
+define("vn", "Tiếng Việt");

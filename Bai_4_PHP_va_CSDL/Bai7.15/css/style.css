@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url("../img/header.png");
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+header button {
+  margin: 10px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+header button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: background-color 0.3s;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+nav button {
+  display: block;
+  margin: 10px 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  padding: 5px;
+}
+
+nav button:hover {
+  background-color: #ddd;
+  transition: background-color 0.3s;
+}
+
+nav img {
+  width: 100%;
+}
+
+.container {
+  margin-left: 25%;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th {
+  background-color: antiquewhite;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.img-detail {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 5px;
+  max-width: 300;
+  max-height: 100%;
+  height: auto;
+}
+
+/* .my-icon {
+  display: block;
+  margin-bottom: 10px;
+} */
