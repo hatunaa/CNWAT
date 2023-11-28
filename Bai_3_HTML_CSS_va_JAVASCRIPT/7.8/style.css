@@ -1,0 +1,72 @@
+/* .tab-bt {
+    background-color: #cccccc;
+    border-left: solid 1px #dcdcdc;
+    border-right: solid 1px #dcdcdc;
+    border-top: solid 1px #dddddd;
+    border-bottom: solid 0px #dddddd;
+}
+.tab-dc {
+    background-color: #108cf8;
+    border-left: solid 1px #dcdcdc;
+    border-right: solid 1px #dcdcdc;
+    border-top: solid 1px #dddddd;
+    border-bottom: solid 0px #dddddd;
+}
+.tab-sc {
+    background-color: #37e1df;
+    border-left: solid 1px #dcdcdc;
+    border-right: solid 1px #dcdcdc;
+    border-top: solid 1px #dddddd;
+    border-bottom: solid 0px #dddddd;
+    cursor:pointer;
+} */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+/* Table cells */
+.tab-bt {
+    background-color: #f8f8f8;
+}
+
+.tab-sc {
+    background-color: #dcdcdc;
+}
+
+.tab-dc {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Iframe styling */
+#myframe {
+    height: 500px;
+    width: 100%;
+    border: none;
+}

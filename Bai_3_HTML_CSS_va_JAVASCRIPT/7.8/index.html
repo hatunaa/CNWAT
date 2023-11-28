@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tab</title>
+</head>
+
+<body>
+    <table cellpadding="2" cellspacing="0">
+        <tr>
+            <td id="m1" class="tab-bt" onmouseover="javascript:MO(this);" onmouseout="javascript:MOut(this);"
+                onclick="javascript:MC(this);">
+                KMA
+            </td>
+            <td id="m2" class="tab-bt" onmouseover="javascript:MO(this);" onmouseout="javascript:MOut(this);"
+                onclick="javascript:MC(this);">
+                Dantri
+            </td>
+            <td id="m3" class="tab-bt" onmouseover="javascript:MO(this);" onmouseout="javascript:MOut(this);"
+                onclick="javascript:MC(this);">
+                BLUECYBER
+            </td>
+            <td id="m4" class="tab-bt" onmouseover="javascript:MO(this);" onmouseout="javascript:MOut(this);"
+                onclick="javascript:MC(this);">
+                wikipedia KMA
+            </td>
+        </tr>
+    </table>
+    <hr />
+
+    <iframe id="myframe" style="height: 600px; width: 100%"></iframe>
+
+    <script type="text/javascript">
+        sel_ = null;
+
+        function MO(r) {
+            if (r != sel_) r.className = "tab-sc";
+        }
+
+        function MOut(r) {
+            if (r != sel_) r.className = "tab-bt";
+        }
+
+        function MC(r) {
+            if (sel_ != null) sel_.className = "tab-bt";
+
+            sel_ = r;
+            sel_.className = "tab-dc";
+
+            frm = document.getElementById("myframe");
+            if (sel_.id == "m1") {
+                frm.src = "https://actvn.edu.vn/";
+            } else if (sel_.id == "m2") {
+                frm.src = "http://dantri.com.vn";
+            } else if (sel_.id == "m3") {
+                frm.src = "https://bluecyber.vn/";
+            } else if (sel_.id == "m4") {
+                frm.src = "https://vi.wikipedia.org/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_K%E1%BB%B9_thu%E1%BA%ADt_M%E1%BA%ADt_m%C3%A3_(Vi%E1%BB%87t_Nam)";
+            }
+        }
+    </script>
+</body>
+
+</html>

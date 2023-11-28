@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Lớp học</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Thêm Lớp Học</h1>
+        <form id="lopForm">
+            <label for="malop">Mã Lớp:</label>
+            <input type="text" id="malop" name="malop" maxlength="6" required />
+
+            <label for="tenlop">Tên Lớp:</label>
+            <input type="text" id="tenlop" name="tenlop" maxlength="50" required />
+
+            <label for="khoahoc">Khóa Học:</label>
+            <input type="number" id="khoahoc" name="khoahoc" required />
+
+            <label for="gv">Giáo viên chủ nhiệm:</label>
+            <input type="text" id="gv" name="gv" maxlength="50" required />
+
+            <button type="submit" onclick="checkForm()">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styte.css" />
+    <script src="script.js"></script>
+    <title>Đăng ký thành viên</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Đăng Ký Thành Viên</h1>
+        <form id="registrationForm">
+            <div class="divInput">
+                <label for="fullName">Họ tên:</label>
+                <input type="text" id="fullName" name="fullName" onfocusout="convertName()" autofocus required />
+                <label for="fullName" id="errorName"></label>
+            </div>
+
+            <div class="divInput">
+                <label for="address">Địa chỉ:</label>
+                <input type="text" id="address" name="address" required />
+            </div>
+            <div class="divInput">
+                <label>Giới Tính:</label>
+                <label><input type="radio" name="gender" value="Nam" required />Nam</label>
+                <label><input type="radio" name="gender" value="Nữ" required /> Nữ</label>
+                <label for="fullName" id="errorGender"></label>
+            </div>
+
+            <div class="divInput">
+                <label for="dob">Ngày sinh:</label>
+                <input type="date" id="dob" name="dob" required />
+                <label for="fullName" id="errorDob"></label>
+            </div>
+
+            <div class="divInput">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" onfocusout="checkEmail()" required />
+                <label for="" id="error" name="email"></label>
+            </div>
+
+            <div class="divInput">
+                <label for="phone">Điện thoại:</label>
+                <input type="tel" id="phone" name="phone" />
+            </div>
+
+            <div class="divInput">
+                <label>Khóa đăng ký:</label>
+                <label><input type="checkbox" name="course" value="Tiếng Anh" /> Tiếng Anh</label>
+                <label><input type="checkbox" name="course" value="Quản Trị" /> Quản Trị</label>
+                <label><input type="checkbox" name="course" value="CNTT" /> CNTT</label>
+                <label for="fullName" id="errorCourse"></label>
+            </div>
+
+            <div class="divInput">
+                <label for="username">Tên sử dụng:</label>
+                <input type="text" id="username" name="username" required />
+                <label for="fullName" id="errorUsername"></label>
+
+            </div>
+
+            <div class="divInput">
+                <label for="password">Mật khẩu:</label>
+                <input type="password" id="password" name="password" required />
+            </div>
+
+            <div class="divInput">
+                <label for="confirmPassword">Gõ lại mật khẩu:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" onfocusout="checkPass()" required />
+                <label for="confirmPassword" id="errorPass"></label>
+            </div>
+
+            <div class="divInput">
+                <label for="notes">Ghi chú:</label>
+                <textarea id="notes" name="notes" rows="4"></textarea>
+                <label for="notes" id="errorNote"></label>
+            </div>
+
+            <div class="button">
+                <button type="submit" onclick="checkAll()">Chấp nhận</button>
+                <button type="reset" onclick="resetForm()">Bỏ qua</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

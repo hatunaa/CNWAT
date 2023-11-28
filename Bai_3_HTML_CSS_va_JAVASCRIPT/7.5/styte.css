@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+label {
+  display: inline-block;
+  font-weight: bold;
+  width: 150px;
+  margin-right: 10px;
+}
+
+input,
+textarea,
+select {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 30%;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+  background-color: #0056b3;
+}
+
+.button {
+  margin: 10px 20px 0 150px;
+}
+
+#fullName,
+#dob,
+#email,
+#username,
+#password,
+#confirmPassword {
+  background-color: rgb(108, 236, 236);
+}
+
+#error,
+#errorPass,
+#errorName,
+#errorGender,
+#errorUsername,
+#errorCourse,
+#errorDob,
+#errorNote {
+  margin-left: 10px;
+  color: red;
+  width: 500px;
+}
